@@ -1,0 +1,41 @@
+:root {
+    --color-text-tittle: #212121;
+    --color-text-section:#757575;
+    --color-main-bgd: #2F303A;
+    --accent-color: #2196F3;
+}
+
+
+.section-tittle{
+    color: var(--color-text-tittle);
+}
+
+.link-nav {
+    color: var(--color-text-tittle);
+}
+
+.site-nav .link-nav:hover,
+.site-nav .link-nav:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link-nav.current {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.characteristic-title {
+    color: var(--color-text-tittle);
+}
+
+.characteristic-description {
+    color: var(--color-text-section);
+}
+
+.button {
+    color:  #FFFFFF;
+    background-color: var(--accent-color);
+}
