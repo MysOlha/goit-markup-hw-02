@@ -1,41 +1,193 @@
 :root {
-    --color-text-tittle: #212121;
-    --color-text-section:#757575;
-    --color-main-bgd: #2F303A;
-    --accent-color: #2196F3;
+  --color-text-tittle: #212121;
+  --color-text-section: #757575;
+  --color-main-bgd: #2f303a;
+  --accent-color: #2196f3;
 }
 
+/* ----------------------HEADER------------------------------ */
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
 
-.section-tittle{
-    color: var(--color-text-tittle);
+.logo-accent {
+  color: #000000;
+}
+
+.section-tittle {
+  color: var(--color-text-tittle);
 }
 
 .link-nav {
-    color: var(--color-text-tittle);
+  color: var(--color-text-tittle);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link-nav:hover,
 .site-nav .link-nav:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .site-nav .link-nav.current {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
-.characteristic-title {
-    color: var(--color-text-tittle);
+/* ------------------------HERO---------------- */
+
+.hero {
+  background-color: var(--color-main-bgd);
 }
 
-.characteristic-description {
-    color: var(--color-text-section);
+.hero-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .button {
-    color:  #FFFFFF;
-    background-color: var(--accent-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* ----------------------ABOUT------------------- */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.about-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-text-tittle);
+}
+
+.about-description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-text-section);
+}
+
+/* ------------------WORK-------------------- */
+
+.work-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--color-text-tittle);
+}
+
+/* ----------------------TEAM-------------------- */
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--color-text-tittle);
+}
+
+.team-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-text-tittle);
+}
+
+.team-work {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-text-section);
+}
+
+
+/* -----------------FOOTER------------------------ */
+
+.footer {
+    background-color: #2F303A;
+}
+.logo-accent-footer {
+    color: #FFFFFF;
+}
+.footer-link, 
+.footer-adress {
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+} 
+.footer-adress {
+    color: #FFFFFF;
+} 
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);  
 }
