@@ -3,12 +3,19 @@
   --color-text-section: #757575;
   --color-main-bgd: #2f303a;
   --accent-color: #2196f3;
+  --base-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", "Tahoma", sans-serif;
+  letter-spacing: 0.03em;
+  background-color: var(--base-color);
+  color: var(--color-text-section);
 }
 
 /* ----------------------HEADER------------------------------ */
 .logo {
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: "Raleway", "Oleo Script", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -27,8 +34,7 @@
 
 .link-nav {
   color: var(--color-text-tittle);
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", "Tahoma", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -56,28 +62,26 @@
 }
 
 .hero-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--base-color);
+  text-align: center;
 }
 
 .button {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", "Tahoma", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--base-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* ----------------------ABOUT------------------- */
@@ -96,98 +100,111 @@
 }
 
 .about-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-text-tittle);
 }
 
 .about-description {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--color-text-section);
 }
 
 /* ------------------WORK-------------------- */
 
 .work-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   color: var(--color-text-tittle);
+  text-align: center;
 }
 
 /* ----------------------TEAM-------------------- */
 
 .team {
-    background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .team-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--color-text-tittle);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--color-text-tittle);
 }
 
 .team-name {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--color-text-tittle);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--color-text-tittle);
 }
 
 .team-work {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--color-text-section);
+  font-size: 16px;
+  line-height: 1.19;
 }
-
 
 /* -----------------FOOTER------------------------ */
 
 .footer {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
 .logo-accent-footer {
-    color: #FFFFFF;
+  color: var(--base-color);
 }
-.footer-link, 
+.footer-link,
 .footer-adress {
-    font-style: normal;
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-} 
+  font-style: normal;
+  text-decoration: none;
+  font-family: "Roboto", "Tahoma", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
 .footer-adress {
-    color: #FFFFFF;
-} 
+  color: var(--base-color);
+}
 
 .footer-link {
-    color: rgba(255, 255, 255, 0.6);  
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+/* ---------------------PORTFOLIO---------------------- */
+
+.button-filter {
+  font-family: "Roboto", "Tahoma", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: var(--color-text-tittle);
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--base-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-text-tittle);
+}
+
+.portfolio-name {
+  font-size: 16px;
+  line-height: 1.88;
 }
