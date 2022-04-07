@@ -132,6 +132,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   color: var(--color-text-tittle);
+  text-align: center;
 }
 
 .team-name {
@@ -139,11 +140,13 @@ body {
   font-size: 16px;
   line-height: 1.19;
   color: var(--color-text-tittle);
+  text-align: center;
 }
 
 .team-work {
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 
 /* -----------------FOOTER------------------------ */
