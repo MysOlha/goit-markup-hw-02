@@ -42,6 +42,10 @@ body {
   text-decoration: none;
 }
 
+.adress-nav .link-nav {
+  color: var(--color-text-section);
+}
+
 .site-nav .link-nav:hover,
 .site-nav .link-nav:focus {
   color: var(--accent-color);
